@@ -1,0 +1,25 @@
+<ion-view title="Color Picker" id="page2">
+    <ion-content overflow-scroll="true" padding="true" class="has-header">
+<!--         <div class="list card">
+            <div class="item item-divider">Card</div>
+            <div class="item item-body"> -->
+
+                <button class="button button-block button-outline" color-picker ng-model="testColors.first" modal-title="Choose a color" color-box="{{testColors.first}}">
+                {{ testColors.first || 'Choose a color' }} </button>   
+<!--             </div>
+        </div> -->
+        <div class="list card">
+            <div class="item item-divider">Color Temperature</div>
+            <div class="item item-body">
+                <form class="list">
+                    <ion-item class="range range-positive">
+                        <input type="range" value="2700" min="0" max="10000" ng-model="rangeValue" ng-change="drag(rangeValue)">
+                        <div> {{rangeValue}} K</div>
+                    </ion-item>
+                </form>
+                <div class="item item-text-wrap">
+                <button class="button button-block" id="color-temp" ng-model="rgb" ng-click="test({{rangeValue}})">{{rgb}}</button>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

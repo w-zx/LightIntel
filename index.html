@@ -1,107 +1,54 @@
-<!doctype html>
-<html lang="zh">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Color Picker</title>
-    <!-- <link rel="stylesheet" type="text/css" href="css/normalize.css" /> -->
-    <!-- <link rel="stylesheet" type="text/css" href="css/default.css"> -->
-    <link rel="stylesheet" href="css/bassdock.min.css">
-    <style>
-    .col-8r {
-        width: 8rem;
-    }
-    
-    .no-select {
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-    }
-    
-    .lh-form {
-        line-height: 2.25rem;
-    }
-    
-    .full-height {
-        height: 100%;
-    }
-    
-    .black {
-        color: #111;
-    }
-    </style>
-    <!--[if IE]>
-		<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
-	<![endif]-->
-</head>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
 
-<body>
-    <div class="htmleaf-container">
-        <div id="content">
-            <div data-reactid=".1wibx6vuosg" data-react-checksum="674322594">
-                <div style="background-image:linear-gradient(-90deg, #F6FF00, #FF00A1);height:80vh;" data-reactid=".1wibx6vuosg.0">
-                    <div class="flex flex-column full-height" data-reactid=".1wibx6vuosg.0.0">
-                        <div class="p3" data-reactid=".1wibx6vuosg.0.0.0">
-                            <header class="flex flex-center flex-wrap black" data-reactid=".1wibx6vuosg.0.0.0.0">
-                                <div class="flex-auto" data-reactid=".1wibx6vuosg.0.0.0.0.0">
-                                    <h1 class="m0" data-reactid=".1wibx6vuosg.0.0.0.0.0.0"><span data-reactid=".1wibx6vuosg.0.0.0.0.0.0.0">Color Picker</span><span class="h4" data-reactid=".1wibx6vuosg.0.0.0.0.0.0.1">
-                                    <!-- <span data-reactid=".1wibx6vuosg.0.0.0.0.0.0.1.0"> v</span><span data-reactid=".1wibx6vuosg.0.0.0.0.0.0.1.1">1.0.0</span></span></h1> -->
-                                    <!-- <p class="m0" data-reactid=".1wibx6vuosg.0.0.0.0.0.1">Mathematically derived gradient explorer</p> -->
-                                </div>
-                            </header>
-                        </div>
-                        <div class="flex-auto" data-reactid=".1wibx6vuosg.0.0.1"></div><pre class="h5 right-align m0 black" data-reactid=".1wibx6vuosg.0.0.2"><span data-reactid=".1wibx6vuosg.0.0.2.0">background-image: </span><span data-reactid=".1wibx6vuosg.0.0.2.1">linear-gradient(-90deg, #F6FF00, #FF00A1)</span><span data-reactid=".1wibx6vuosg.0.0.2.2">;</span></pre></div>
-                </div>
-                <div class="md-flex" data-reactid=".1wibx6vuosg.1">
-                    <div class="md-col-6 lg-col-5 px2" data-reactid=".1wibx6vuosg.1.0">
-                        <form data-reactid=".1wibx6vuosg.1.0.0">
-                            <fieldset class="fieldset-reset py2" data-reactid=".1wibx6vuosg.1.0.0.0">
-                                <div class="flex flex-center mb2" data-reactid=".1wibx6vuosg.1.0.0.0.0">
-                                    <label class="h4 bold flex-none mr2" data-reactid=".1wibx6vuosg.1.0.0.0.0.0">Base Color</label>
-                                    <input type="text" value="#00ccff" class="m0 flex-auto field-light" data-reactid=".1wibx6vuosg.1.0.0.0.0.1">
-                                </div>
-                                <div class="sm-flex mxn2 no-select" data-reactid=".1wibx6vuosg.1.0.0.0.1">
-                                    <div class="flex-auto px2" data-reactid=".1wibx6vuosg.1.0.0.0.1.0">
-                                        <label class="h5 bold block" data-reactid=".1wibx6vuosg.1.0.0.0.1.0.0"><span data-reactid=".1wibx6vuosg.1.0.0.0.1.0.0.0">Hue </span><span data-reactid=".1wibx6vuosg.1.0.0.0.1.0.0.1">0</span><span data-reactid=".1wibx6vuosg.1.0.0.0.1.0.0.2">°</span></label>
-                                        <input type="range" value="0" min="0" max="360" class="full-width dark-gray range-light" data-reactid=".1wibx6vuosg.1.0.0.0.1.0.1">
-                                    </div>
-                                    <div class="flex-auto px2" data-reactid=".1wibx6vuosg.1.0.0.0.1.1">
-                                        <label class="h5 bold block" data-reactid=".1wibx6vuosg.1.0.0.0.1.1.0"><span data-reactid=".1wibx6vuosg.1.0.0.0.1.1.0.0">Saturation </span><span data-reactid=".1wibx6vuosg.1.0.0.0.1.1.0.1">0</span></label>
-                                        <input type="range" value="0" min="0" max="100" class="full-width dark-gray range-light" data-reactid=".1wibx6vuosg.1.0.0.0.1.1.1">
-                                    </div>
-                                    <div class="flex-auto px2" data-reactid=".1wibx6vuosg.1.0.0.0.1.2">
-                                        <label class="h5 bold block" data-reactid=".1wibx6vuosg.1.0.0.0.1.2.0"><span data-reactid=".1wibx6vuosg.1.0.0.0.1.2.0.0">Lightness </span><span data-reactid=".1wibx6vuosg.1.0.0.0.1.2.0.1">0</span></label>
-                                        <input type="range" value="0" min="0" max="100" class="full-width dark-gray range-light" data-reactid=".1wibx6vuosg.1.0.0.0.1.2.1">
-                                    </div>
-                                </div>
-                            </fieldset>
-                        </form>
-                    </div>
-                    <form class="md-col-6 px2 py2" data-reactid=".1wibx6vuosg.1.2">
-                        <hr class="sm-hide" data-reactid=".1wibx6vuosg.1.2.0">
-                        <fieldset class="fieldset-reset no-select" data-reactid=".1wibx6vuosg.1.2.1">
-                            <legend class="h4 bold lh-form mb2" data-reactid=".1wibx6vuosg.1.2.1.0">Gradient Spread</legend>
-                            <div class="sm-flex mxn2" data-reactid=".1wibx6vuosg.1.2.1.1">
-                                <div class="flex-auto px2" data-reactid=".1wibx6vuosg.1.2.1.1.0">
-                                    <label class="h5 bold block" data-reactid=".1wibx6vuosg.1.2.1.1.0.0"><span data-reactid=".1wibx6vuosg.1.2.1.1.0.0.0">Hue Shift </span><span data-reactid=".1wibx6vuosg.1.2.1.1.0.0.1">-130</span><span data-reactid=".1wibx6vuosg.1.2.1.1.0.0.2">°</span></label>
-                                    <input type="range" value="-130" min="-180" max="180" class="full-width dark-gray range-light" data-reactid=".1wibx6vuosg.1.2.1.1.0.1">
-                                </div>
-                                <div class="flex-auto px2" data-reactid=".1wibx6vuosg.1.2.1.1.1">
-                                    <label class="h5 bold block" data-reactid=".1wibx6vuosg.1.2.1.1.1.0"><span data-reactid=".1wibx6vuosg.1.2.1.1.1.0.0">Saturate </span><span data-reactid=".1wibx6vuosg.1.2.1.1.1.0.1">0</span></label>
-                                    <input type="range" value="0" min="-1" max="1" step="0.01" class="full-width dark-gray range-light" data-reactid=".1wibx6vuosg.1.2.1.1.1.1">
-                                </div>
-                                <div class="flex-auto px2" data-reactid=".1wibx6vuosg.1.2.1.1.2">
-                                    <label class="h5 bold block" data-reactid=".1wibx6vuosg.1.2.1.1.2.0"><span data-reactid=".1wibx6vuosg.1.2.1.1.2.0.0">Lighten </span><span data-reactid=".1wibx6vuosg.1.2.1.1.2.0.1">0</span></label>
-                                    <input type="range" value="0" min="-1" max="1" step="0.01" class="full-width dark-gray range-light" data-reactid=".1wibx6vuosg.1.2.1.1.2.1">
-                                </div>
-                            </div>
-                        </fieldset>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script type="text/javascript" src="./js/app.min.js"></script>
-</body>
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/routes.js"></script>
+    <script src="js/services.js"></script>
+    <script src="js/directives.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/ionic-color-picker.css">
+    <link rel="stylesheet" href="css/ionic-time-picker.css">
+    <script src="js/ionic-color-picker-tinycolor.js"></script>
+    <script src="js/ionic-timepicker.bundle.min.js"></script>
+    <script src="js/roundProgress.min.js"></script>
+    <script src="js/moment.min.js"></script>
+    
+<ion-nav-view name=​"tab-timepicker" class=​"view-container tab-content" nav-view=​"active" nav-view-transition=​"ios" nav-view-direction=​"swap" nav-swipe>​
+  </head>
+  <body ng-app="app" animation="slide-left-right-ios7">
+  <div>
+    <ion-side-menus enable-menu-with-back-views="false" data-componentid="side-menu21">
+        <ion-side-menu-content>
+            <ion-nav-bar class="bar-stable">
+                <ion-nav-back-button></ion-nav-back-button>
+                <ion-nav-buttons side="left">
+                    <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+                </ion-nav-buttons>
+            </ion-nav-bar>
+            <ion-nav-view></ion-nav-view>
+        </ion-side-menu-content>
+        <ion-side-menu side="left" id="side-menu21">
+            <ion-header-bar class="bar-stable">
+                <div class="title">Menu</div>
+            </ion-header-bar>
+            <ion-content padding="false" class="side-menu-left has-header"></ion-content>
+        </ion-side-menu>
+    </ion-side-menus>
+</div>
+  </body>
 </html>
