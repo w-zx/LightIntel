@@ -67,6 +67,18 @@ angular.module('app.services', [])
 			else {
 				return {"r": 0, "g": 255, "b": 0, "a": 0};
 			}
+		},
+		getSunrise: function() {
+			return sunrise;
+		},
+		setSunrise: function(value) {
+			sunrise = value;
+		},
+		getSunset: function() {
+			return sunset;
+		},
+		setSunset: function(value) {
+			sunset = value;
 		}
 	}
 })
