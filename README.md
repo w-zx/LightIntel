@@ -40,6 +40,6 @@ or
 
 `$ ionic run browser`
 
-## Lincense
+## License
 
 MIT License
